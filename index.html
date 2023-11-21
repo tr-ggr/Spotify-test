@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </head>
+  <body
+    class="flex items-center justify-center w-screen h-screen flex-col gap-5">
+    <div
+      class="artist-card bg-slate-500 rounded-xl w-[40rem] h-[20rem] flex border-2 border-black">
+      <div class="picture h-full bg-white w-2/4 rounded-l-xl">
+        <div
+          class="artist-image rounded-l-xl w-full h-full bg-cover bg-center"></div>
+      </div>
+      <div
+        class="flex flex-col bg-zinc-200 w-2/4 h-full rounded-r-xl p-8 justify-center gap-2">
+        <span class="Artist font-bold text-2xl"
+          >Artist name: <span class="Artist"></span></span
+        ><br />
+        <span class="text-xl">Popularity: <span class="Popularity"></span></span
+        ><br />
+        <span class="text-xl">Followers: <span class="Followers"></span></span
+        ><br />
+        <span class="text-xl">Genres: <span class="Genre"></span></span>
+      </div>
+    </div>
+
+    <div class="flex">
+      <button class="click w-fit p-10 h-12 bg-slate-500 border-2 border-black">
+        CODING
+      </button>
+      <button class="url w-fit p-10 h-12 bg-slate-500 border-2 border-black">
+        URL
+      </button>
+      <button class="access w-fit p-10 h-12 bg-slate-500 border-2 border-black">
+        ACCESS TOKEN
+      </button>
+      <button class="artist w-fit p-10 h-12 bg-slate-500 border-2 border-black">
+        GET ARTIST!
+      </button>
+    </div>
+  </body>
+</html>
